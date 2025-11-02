@@ -1,0 +1,294 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background: #2b262c;
+     color: #ff8c00;
+     font-family: sans-serif;
+ }
+ header {
+     padding: 20px;
+     margin: 20px;
+     background-color: black;
+ }
+ .head {
+     display: flex;
+     justify-content: space-between;
+ }
+ .logo {
+     font-size: 30px;
+     color: orangered;
+     box-shadow: 5px 10px 10px orange;
+ }
+ nav {
+     text-decoration: none;
+     font-size: larger;
+     list-style: none;
+ }
+ nav a {
+     font-size: 28px;
+     list-style: none;
+     text-decoration: none;
+     color: white;
+     margin: 20px;
+     box-shadow: 5px 10px 10px orange;
+ }
+ span {
+     color: yellow;
+ }
+ .banner {
+     padding-top: 95px;
+     text-align: center;
+     color: #FFA500;
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: cover;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/discussion-university-students-with-laptop-campus-communication-learning-knowledge-education-diversity-people-with-technology-assignment-study-group-search-internet_590464-366005.jpg)
+ }
+ .banner p {
+     font-style: italic;
+     font-size: 20px;
+     color: rgb(241, 69, 6);
+ }
+ .text {
+     display: flex;
+     padding: 10px 13px;
+     flex-direction: column;
+     gap: 5px;
+     align-items: center;
+ }
+ .text h3 {
+     color: orange;
+     margin-bottom: 20px;
+     font-size: 26px;
+     text-align: center;
+ }
+ .sign {
+     display: flex;
+     justify-content: center;
+     padding-left: 30px;
+     margin: 10px 0;
+     border: none;
+     border-radius: 40%;
+     font-size: 16px;
+ }
+ .sign button {
+     background-color: #ff8c00;
+     color: rgb(216, 199, 199);
+     border: none;
+     padding: 8px;
+     border-radius: 10%;
+     cursor: pointer;
+     font-size: 18px;
+     font-weight: bold;
+     width: 80%;
+     transition: 0.3s ease;
+ }
+ .sign button:hover {
+     background-color: rgb(27, 46, 1);
+ }
+ .footer {
+    background-color: #111;
+     position: relative;
+     text-align: center;
+     font-size: 18px;
+     color: #FFA700;
+     padding: 15px 10px;
+     border-top: 2px solid #FFA500;
+     position: relative;
+     width: 100%;
+ }
+      About us page
+ .about {
+     background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+     color: #ffffff;
+     min-height: 100vh;
+     padding: 20px 18px;
+     margin: 0;
+     padding: 0;
+ }
+
+ .content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .content h1 {
+    font-size: 30px;
+    color: #FFA500;
+    letter-spacing: 10PX;
+ }
+ .content h2 {
+    color: #FFA500;
+    margin-bottom: 10px;
+ }
+ .content p {
+    color: #FFD700;
+ }
+
+ .pictures {
+     display: flex;
+     padding: 20px ;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 20px;
+     
+ }
+
+ .pictures img {
+     width: 400px;
+     height: 300px;
+     object-fit: cover;
+     border-radius: 10px;
+     box-shadow: 0 0 15px rgba(255, 165, 0, 0.3);
+     transition: transform 0.3s ease;
+     box-shadow: 0.3s ease;
+ }
+ .pictures img:hover {
+transform: scale(1.03);
+box-shadow: 0 0 25px rgba(255, 215,0,0.5);
+ }
+
+ .menu {
+    background-color: #000;
+    color: #fff;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     padding: 60px 8%;
+     gap: 40px;
+     flex-wrap: wrap;
+     border-top: 2px solid #FFA500;
+ }
+
+ .menu h4 {
+    color: #FFA500;
+    font-size: 25px;
+text-transform: uppercase;
+     margin-bottom: 20px;
+     border-left: 5p solid #FFD700;
+     padding: 8px 10px;
+ }
+
+ .list {
+     list-style-type: none;
+     margin-bottom: 30px;
+     padding: 0;
+     font-size: 20px;
+     padding-left: 20px;
+     position: relative;
+     color: #FFD700;
+ }
+
+ .choose {
+     display: flex;
+     padding: 10px 15px;
+     font-size: 18px;
+     border: 2px solid #FFA500;
+     border-radius: 6px;
+     background-color: transparent;
+     color: #fff;
+     align-items: baseline;
+ }
+ .choose button {
+    background-color: #FFA500;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+ }
+ .choose button:hover {
+    background-color: #FFD700;
+ }
+ 
+ .footer {
+    background-color: #111;
+     position: relative;
+     text-align: center;
+     font-size: 18px;
+     color: #FFA700;
+     padding: 15px 10px;
+     border-top: 2px solid #FFA500;
+     position: relative;
+     width: 100%;
+ }
+
+ /*contact us page*/
+ .contact {
+     background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+     color: #fff;
+     font-family: sans-serif;
+     margin: 0;
+     padding: 0;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+
+ }
+ .comment h2{
+    color: #FFA500;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+ }
+ .comment form {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 165, 0, 0.5);
+    padding: 30px;
+    border-radius: 12px;
+    border: 12px solid #FFA500;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+ }
+ input,textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #FFA500;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 19px;
+ }
+ .comment button{
+    background-color: #FFA500;
+    color: #000;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+ }
+ .comment button:hover {
+    background-color: #ffd700;
+    transform: scale(1.05);
+ }
+ .reach {
+    color: #f2f2f2;
+    line-height: 1.8;
+    text-align: center;
+    color: #ff8c00;
+ }
+ 
+ .footer {
+    background-color: #111;
+     position: relative;
+     text-align: center;
+     font-size: 18px;
+     color: #FFA700;
+     padding: 15px 10px;
+     border-top: 2px solid #FFA500;
+     position: relative;
+     width: 100%;
+ }
